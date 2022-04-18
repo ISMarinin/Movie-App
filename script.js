@@ -64,35 +64,3 @@ form.addEventListener('submit', err => {
 
     search.value = ''
 })
-
-
-// function countPages(data) {
-
-//     const btn = document.querySelector('.btns__pages')
-
-//     data.pagesCount.forEach(num => {
-//         const numPage = document.createElement('div')
-//         numPage.classList.add('num__page')
-//         numPage.innerHTML = `
-//             <div class="num__page num__active">${num}</div>
-//         `
-//         btn.appendChild(numPage)
-//     })
-// }
-
-// countPages(apiUrlPopular)
-
-// btn.addEventListener('click', e => {
-
-//     const {target} = e
-//     const targetClassList = target.classList
-//     const allNumPages = [...document.querySelectorAll('.num__page')]
-//     const activePageNumber = allNumPages.findIndex(i => i.classList.contains('.num__active'))
-
-//     function setNum(num) {
-//         allNumPages[activePageNumber].classList.remove('num__active')
-//         allNumPages[activePageNumber + num].classList.add('nam__active')
-//     }
-//     // console.log(targetClassList)
-//     // const apiUrlPages = `${apiUrlPopular}`
-// })
