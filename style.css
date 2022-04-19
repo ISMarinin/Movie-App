@@ -123,9 +123,10 @@ body {
 }
 
 .btns__pages {
-    float: right;
     margin-bottom: 100px;
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .btns__pages > * {
