@@ -149,3 +149,49 @@ body {
 .num__active {
     color: aliceblue;
 }
+
+.popup {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.popup.active {
+    display: block;
+}
+
+.popup__body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10 px;
+}
+
+.popup__content {
+    background-color: #fff;
+    color: #000000;
+    max-width: 800px;
+    padding: 30px;
+    position: relative; 
+}
+
+.popup__title {
+    font-size: 40px;
+    margin: 0px 0px 24px 0px;
+}
+
+.popup__close {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+
+.popup__text {
+    line-height: 30px;
+}
